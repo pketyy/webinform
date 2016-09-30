@@ -17,25 +17,27 @@
   </head>
   <body>
   <header>
-    <div class="top-bar">
-      <div class="lang-nav">
+    <div class="top-bar row">
+      <div class="lang-nav col-3">
         <i class="fa fa-globe" aria-hidden="true"></i>
         <select onchange="location = this.value;">
           <option value="/">Hungarian</option>
           <option value="#">English</option>
       </select>
       </div>
-      <div class="contact-nav">
-        <span class="icon phone-icon"></span>
-        <a href="tel:+3612792727">+361 279 2727</a>
-        <span class="icon mail-icon"></span>
-        <a href="mailto:marketiroda@market.hu?Subject=Hello" target="_top">marketiroda@market.hu</a>
-        <span class="icon fax-icon"></span>
-        +361 466 4827
-        <span class="icon down-icon"></span>
-        <a href="/cegismerteto.pdf" download="Cégismertető">Cégismertető</a>
+      <div class="col-7">
+      <ul class="contact-nav">
+        <li class="icon phone-icon"></li>
+        <li><a href="tel:+3612792727">+361 279 2727</a></li>
+        <li class="icon mail-icon"></li>
+        <li><a href="mailto:marketiroda@market.hu?Subject=Hello" target="_top">marketiroda@market.hu</a></li>
+        <li class="icon fax-icon"></li>
+        <li>+361 466 4827</li>
+        <li class="icon down-icon"></li>
+        <li><a href="/cegismerteto.pdf" download="Cégismertető">Cégismertető</a></li>
+      </ul>
       </div>
-      <div class="social-nav">
+      <div class="social-nav col-2">
         <i class="fa fa-facebook-square" aria-hidden="true"></i>
         <i class="fa fa-twitter-square" aria-hidden="true"></i>
         <i class="fa fa-tumblr-square" aria-hidden="true"></i>
@@ -45,10 +47,77 @@
       </div>
     </div>
     <div id="slider-wrapper">
+    
       <div class="naw-wrapper">
         <div class="logo">
           <img src="img/logo.png" alt="">
         </div>
+        <nav id="menu" class="menu">
+              <ul>
+                <li><a class="active" href="/">Home</a></li>
+                <li class="submenu"><a href="javascript:void(0)" class="dropdown" onclick="myFunction()">Céginformáció</a>
+                  <div class="dpd-ct">
+                    <div class="dpd-ct-inner">
+                        <ul>
+                          <li><a href="#">Bemutatkozunk</a></li>
+                          <li><a href="#">Szolgáltatások</a></li>
+                          <li><a href="#">Szervezet</a></li>
+                          <li><a href="#">Statisztikák</a></li>
+                          <li><a href="#">Díjaink</a></li>
+                          <li><a href="#">Támogatások</a></li>
+                        </ul>                   
+                      <div>
+                      </div>
+                    </div><!-- /cbp-hrsub-inner -->
+                  </div><!-- /cbp-hrsub -->
+                </li>
+                <li><!-- ... --></li>
+                <li><!-- ... --></li>
+                <!-- ... -->
+              </ul>
+            </nav>
+
+      <!--  <nav id="menu" class="menu">
+          <ul>
+            <li><a class="active" href="/">Home</a></li>
+            <li class="submenu">
+              <a href="javascript:void(0)" class="dropdown" onclick="myFunction()">Céginformáció</a>
+              <div class="dpd-ct">
+                  <div class="dpd-ct-inner" id="sub1">
+                    <a href="#">Bemutatkozunk</a>
+                    <a href="#">Szolgáltatások</a>
+                    <a href="#">Szervezet</a>
+                    <a href="#">Statisztikák</a>
+                    <a href="#">Díjaink</a>
+                    <a href="#">Támogatások</a>
+                  </div>
+              </div>
+            </li>
+            <li class="submenu">
+              <a href="javascript:void(0)" class="dropdown" onclick="myFunction()">Projektek</a>
+              <div class="dpd-ct">
+                  <div class="dpd-ct-inner" id="sub2">
+                    <a href="#">Aktuális építkezések</a>
+                    <a href="#">Befejezett építkezések</a>
+                  </div>
+              </div>
+            </li>
+            <li><a href="#">Hírek</a></li>
+            <li class="submenu">
+              <a href="javascript:void(0)" class="dropdown" onclick="myFunction()">Leányvállalatok</a>
+              <div class="dpd-ct">
+                  <div class="dpd-ct-inner" id="sub3">
+                    <a href="#">Property Market</a>
+                    <a href="#">OK Bau</a>
+                    <a href="#">Moratus</a>
+                    <a href="#">Vilati</a>
+                    <a href="#">Market</a>
+                  </div>
+              </div>
+            </li>
+            <li><a href="#">Karrier</a></li>
+          </ul>
+        </nav>-->
       </div>
     </div>
 
