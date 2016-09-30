@@ -1,0 +1,158 @@
+/* General */
+
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif, Helvetica, "Helvetica Neue";
+  font-size: 16px;
+  line-height: 1.5;
+<<<<<<< HEAD
+  color: #969696;
+  background-color: #323232 
+}
+=======
+  color: #ffffff;
+  background-color: #000
+}
+
+>>>>>>> refs/remotes/origin/gh-pages
+
+a {
+  color: #ffffff;
+  text-decoration: none; 
+}
+  a:hover {
+    text-decoration: underline; 
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s; 
+}
+  .btn + .btn {
+    margin-left: 1rem; 
+  }
+
+.btn:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3); 
+}
+
+select {
+  color: #ffffff !important;
+  background-color: transparent;
+  border: none; 
+}
+.vegas-timer {
+  height: 3px !important
+} 
+.vegas-timer-progress {
+  background: #99c93b !important
+}
+/* Header */
+
+.top-bar {
+  box-shadow: inset 0px -40px 40px 0px rgba(2, 13, 20, 0.1);
+  -webkit-box-shadow: inset 0px -40px 40px 0px rgba(2, 13, 20, 0.1);
+  -moz-box-shadow:    inset 0px -40px 40px 0px rgba(2, 13, 20, 0.1); 
+}
+.naw-wrapper {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 32px 90px 0px rgba(2, 13, 20, 0.1);
+  -webkit-box-shadow: 0px 32px 90px 0px rgba(2, 13, 20, 0.1);
+  -moz-box-shadow:    0px 32px 90px 0px rgba(2, 13, 20, 0.1)
+}
+#slider-wrapper {
+  height: 600px;
+}
+/*
+.slide1 {
+  background-image: url("../img/slide1.jpg");
+  background-size: 
+}
+.slide2 {
+  background-image: url("img/slide2.jpg");
+}
+.slide3 {
+  background-image: url("img/slide3.jpg");
+}
+.slide4 {
+  background-image: url("img/slide4.jpg");
+}*/
+
+/* General */
+/* General */
+
+
+
+
+@media screen and (min-width: 64em) {
+  .btn {
+    padding: 0.75rem 1rem; } 
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .btn {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem; } 
+}
+
+@media screen and (max-width: 42em) {
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.9rem; }
+    .btn + .btn {
+      margin-top: 1rem;
+      margin-left: 0; } 
+}
+
+@media screen and (min-width: 64em) {
+  
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+
+}
+
+@media screen and (max-width: 42em) {
+
+}
+
+@media screen and (min-width: 64em) {
+
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+
+}
+
+@media screen and (max-width: 42em) {
+
+}
+
+@media screen and (min-width: 64em) {
+
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+
+}
+
+@media screen and (max-width: 42em) {
+
+}
